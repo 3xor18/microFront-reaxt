@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import { StylesProvider } from '@material-ui/core/styles';
 
-import Lading from './components/Landing';
+import Landing from './components/Landing';
 import Pricing from './components/Pricing';
 
 export default () => {
@@ -20,7 +20,7 @@ export default () => {
 							path="/pricing"
 							component={Pricing}
 						/>
-						<Route path="/" component={Lading} />
+						<Route path="/" component={Landing} />
 					</Switch>
 				</BrowserRouter>
 			</StylesProvider>
